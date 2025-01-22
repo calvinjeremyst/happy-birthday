@@ -67,7 +67,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=5")
+    "+=3")
     .to(".two",
         0.7,
         {
@@ -85,7 +85,7 @@ const animationTimeline = () => {
             opacity: 0,
             y: 10
         },
-    "+=5")
+    "+=3")
     .from(".four", 0.7, {
         scale: 0.2,
         opacity: 0,
@@ -104,7 +104,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=5")
+    "+=3")
     .to(
         ".four",
         0.5, {
@@ -112,11 +112,11 @@ const animationTimeline = () => {
             opacity: 0,
             y: -150
         },
-    "+=5")
+    "+=3")
     .from(".idea-1", 0.7, ideaTextTrans)
-    .to(".idea-1", 0.7, ideaTextTransLeave, "+=5")
+    .to(".idea-1", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-2", 0.7, ideaTextTrans)
-    .to(".idea-2", 0.7, ideaTextTransLeave, "+=5")
+    .to(".idea-2", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-3", 0.7, ideaTextTrans)
     .to(".idea-3 strong", 0.5, {
         scale: 1.2,
@@ -124,9 +124,9 @@ const animationTimeline = () => {
         backgroundColor: "rgb(21, 161, 237)",
         color: "#fff",
     })
-    .to(".idea-3", 0.7, ideaTextTransLeave, "+=5")
+    .to(".idea-3", 0.7, ideaTextTransLeave, "+=3")
     .from(".idea-4", 0.7, ideaTextTrans)
-    .to(".idea-4", 0.7, ideaTextTransLeave, "+=5")
+    .to(".idea-4", 0.7, ideaTextTransLeave, "+=3")
     .from(
         ".idea-5",
         0.7, {
@@ -137,7 +137,7 @@ const animationTimeline = () => {
             z: 10,
             opacity: 0,
         },
-        "+=5"
+        "+=3"
     )
     .to(
         ".idea-5 span",
@@ -145,7 +145,7 @@ const animationTimeline = () => {
             rotation: 90,
             x: 8,
         },
-        "+=5"
+        "+=3"
     )
     .to(
         ".idea-5",
@@ -153,7 +153,7 @@ const animationTimeline = () => {
             scale: 0.2,
             opacity: 0,
         },
-        "+=5"
+        "+=3"
     )
     .staggerFrom(
         ".idea-6 span",
@@ -174,7 +174,7 @@ const animationTimeline = () => {
             ease: Expo.easeOut,
         },
         0.2,
-        "+=5"
+        "+=3"
     )
     .staggerFromTo(
         ".baloons img",
@@ -261,7 +261,7 @@ const animationTimeline = () => {
         0.5, {
             rotation: 90,
         },
-        "+=5"
+        "+=3"
     );
 
     // Restart Animation on click
